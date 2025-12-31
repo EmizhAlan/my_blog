@@ -1,0 +1,33 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Основная зона контента */
+main {
+  width: 100%;
+  padding: 32px 24px;
+}
+
+/* Контейнер для читаемого контента */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Ссылки */
+a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-text-primary);
+}
+
+.page {
+  min-height: 100vh;
+  padding: 32px 24px;
+}
+
